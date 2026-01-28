@@ -9,9 +9,7 @@ public class Exercise5 {
         double salaryMinimum = 1293.00;
         double mySalary = sc.nextDouble();
 
-        double salary = mySalary / salaryMinimum;
-
-        System.out.printf("Salario:  %.0f", salary);
+        System.out.printf("Salario:  %.0f",mySalary / salaryMinimum);
 
     }
 
